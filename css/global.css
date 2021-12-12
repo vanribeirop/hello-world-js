@@ -1,7 +1,49 @@
 * {
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
     /* background-color: blue; */
+    background-color: #EEEEEE;
+    font-size: 13px;
+}
+
+#login-container {
+    width: 100%;
+    padding-top: 100px;
+}
+
+.login-card {
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    border: 1px solid rosybrown;
+    background-color:white;
+    padding: 25px;    
+}
+
+.form-fields {
+    width: 100%;
+    margin-bottom: 7px;
+    border-radius: 3px;
+    border: 1px solid grey;
+    height: 30px;
+}
+
+.divider {
+    margin: 25px 0px;
+    border: none;
+    border-top: 1px solid #d6d6d6;
+}
+
+.form-button {
+    width: 100%;
+    margin-top: 30px;
+    background-color:blueviolet;
+    border-radius: 7px;
+    color: white;
+    height: 30px;
+
 }

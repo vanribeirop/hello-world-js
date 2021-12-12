@@ -7,13 +7,26 @@
     <link rel="stylesheet" href="./css/global.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght
-        @100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <title>Hello World</title>
 </head>
 <body>
-    <div id="login-card">
-        Entre com os seus dados
+    <div id=login-container>
+        <div class="login-card">
+            <div style="width: 100%; text-align: center;">
+                <h2>
+                    Entre com os seus dados
+                </h2>
+            </div>
+            <hr class="divider">
+            <label for="">E-mail</label>
+            <input id="email" class="form-fields" type="email">
+            <label for="">Senha</label>
+            <input id="password" class="form-fields" type="password">
+            <button class="form-button">
+                Acessar
+            </button>
+        </div>
     </div>
 </body>
 </html>
